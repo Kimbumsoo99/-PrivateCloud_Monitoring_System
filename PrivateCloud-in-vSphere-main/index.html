@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Final Project</title>
+        <style>
+            .card-body {
+                width: 600px;
+                height: 270px;
+                margin: 0px;
+                background-color: aliceblue;
+            }
+            .chartjs-render-monitor {
+                animation: chartjs-render-animation 1ms;
+            }
+            .chartjs-render-monitor {
+                padding-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CPU 사용률</h1>
+        <div class="card-body">
+            <canvas id="myCpuChart" width="600px" height="250px"></canvas>
+        </div>
+        <h1>Memory 사용률</h1>
+        <div class="card-body">
+            <canvas id="myMemoryChart" width="600px" height="250px"></canvas>
+        </div>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"
+            crossorigin="anonymous"
+        ></script>
+        <script src="chart-area-demo.js"></script>
+    </body>
+</html>
