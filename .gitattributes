@@ -1,3 +1,5 @@
+linguist-vendored
+
 linguist-language=JavaScript
 .html linguist-detectable=false
-.CSS linguist-detectable=false
+.css linguist-detectable=false
